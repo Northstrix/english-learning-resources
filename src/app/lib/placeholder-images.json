@@ -1,0 +1,17 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "blog-testaments",
+      "description": "Fictional totalitarian society setting",
+      "imageUrl": "https://picsum.photos/seed/88/1200/800",
+      "imageHint": "dystopian architecture"
+    },
+    {
+      "id": "blog-landman",
+      "description": "Modern professional environment",
+      "imageUrl": "https://picsum.photos/seed/42/1200/800",
+      "imageHint": "modern office"
+    }
+  ]
+}

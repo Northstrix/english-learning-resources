@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 4%; /* #0a0a0a */
+  --foreground: 0 0% 100%; /* #ffffff */
+  --card: 0 0% 9%; /* #161616 */
+  --card-foreground: 0 0% 100%;
+  --popover: 0 0% 9%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 215 84% 49%; /* #146DE9 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 18%; /* #2e2e2e */
+  --secondary-foreground: 0 0% 77%; /* #c5c5c5 */
+  --muted: 0 0% 67%; /* #aaaaaa */
+  --muted-foreground: 0 0% 67%; /* #aaaaaa */
+  --accent: 215 84% 49%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 12%; /* #1e1e1e */
+  --input: 0 0% 12%;
+  --ring: 215 84% 49%;
+  --radius: 0rem;
+
+  /* Theme Specific Colors */
+  --theme-green: 125 84% 49%; /* #14E626 */
+  --theme-red: 5 84% 49%; /* #E62614 */
+
+  /* Global Typography Defaults */
+  --h1-size-mobile: 2.5rem;
+  --h1-size-desktop: 3.6rem;
+  --h2-size-mobile: 1.75rem;
+  --h2-size-desktop: 2.55rem;
+  --p-size-mobile: 0.875rem;
+  --p-size-desktop: 1rem;
+  --p-lightness: 50%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+  h1 {
+    font-size: var(--h1-size-mobile);
+    margin-top: 0;
+    margin-bottom: 3.4rem;
+    color: #fff;
+    @apply font-headline font-black tracking-tighter leading-none;
+  }
+  h2 {
+    font-size: var(--h2-size-mobile);
+    margin-top: 2rem;
+    margin-bottom: 0.54rem;
+    color: #fff;
+    @apply font-headline font-black tracking-tighter leading-none;
+  }
+  p {
+    font-size: var(--p-size-mobile);
+    color: hsl(0, 0%, var(--p-lightness));
+    margin-top: 0;
+    margin-bottom: 0.675rem;
+    @apply leading-relaxed;
+  }
+
+  @screen md {
+    h1 { font-size: var(--h1-size-desktop); }
+    h2 { 
+      font-size: var(--h2-size-desktop); 
+      margin-top: 3.3rem;
+      margin-bottom: 0.75rem;
+    }
+    p { 
+      font-size: var(--p-size-desktop); 
+      margin-bottom: 1rem;
+    }
+  }
+
+  h3, h4, h5, h6 {
+    @apply font-headline font-black tracking-tighter text-white;
+  }
+}
+
+@keyframes link {
+  50% { transform: scaleX(0); }
+  50.1% { transform: translateX(-100%) scaleX(-0.01); }
+  100% { transform: translateX(-100%) scaleX(-1); }
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.transform-3d { transform-style: preserve-3d; }
+.backface-hidden { backface-visibility: hidden; }
+.perspective-3000 { perspective: 3000px; }
