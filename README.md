@@ -12,11 +12,13 @@ Link: https://english-learning-resources.netlify.app/
 
 The existence of this project (at least in its current form) wouldn’t’ve been possible without the following:
 
-[Resizable Navbar](https://ui.aceternity.com/components/resizable-navbar) by [Aceternity UI](https://ui.aceternity.com/)
+[Draggable Card](https://ui.aceternity.com/components/draggable-card) by [Aceternity UI](https://ui.aceternity.com/)
 
 [Chronicle Button](https://codepen.io/Haaguitos/pen/OJrVZdJ) by [Haaguitos](https://codepen.io/Haaguitos)
 
 [すりガラスなプロフィールカード](https://codepen.io/ash_creator/pen/zYaPZLB) by [あしざわ - Webクリエイター](https://codepen.io/ash_creator)
+
+[Resizable Navbar](https://ui.aceternity.com/components/resizable-navbar) by [Aceternity UI](https://ui.aceternity.com/)
 
 [framer-motion](https://www.npmjs.com/package/framer-motion)
 
