@@ -2,6 +2,8 @@
 
 Link: https://english-learning-resources.netlify.app/
 
+![Alt Logo](https://github.com/Northstrix/english-learning-resources/blob/main/public/logo.webp?raw=true)
+
 ![Alt Blog Section on the landing page](https://github.com/Northstrix/english-learning-resources/blob/main/images/blog-section-in-hero.webp?raw=true)
 
 ![Alt Flashcards](https://github.com/Northstrix/english-learning-resources/blob/main/images/flashcards.webp?raw=true)
